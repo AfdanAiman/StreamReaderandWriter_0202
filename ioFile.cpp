@@ -27,5 +27,7 @@ int main(){
     //selesai dalam menulis skarang tutuo filenya
     outfile.close();
 
+    //membuat objek input file stream
+    ifstream infile;
     
 }
