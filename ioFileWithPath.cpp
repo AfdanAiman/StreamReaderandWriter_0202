@@ -6,15 +6,14 @@ using namespace std;
 int main(){
     string baris;
     string namefile;
+    cout << "Masukan Nama file : " << endl;
+    cin >> namefile;
+    cin.ignore();
 
     // membuat objek output file stream
     ofstream outfile;
     //membuka file untuk ditulis
     outfile.open(namefile + ".csv");
-
-    cout << "Masukan Nama file : " << endl;
-    cin >> namefile;
-    cin.ignore();
 
     cout << " >= Menulis file, \'q\' untuk keluar" << endl;
 
